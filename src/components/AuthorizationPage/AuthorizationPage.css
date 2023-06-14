@@ -1,0 +1,54 @@
+.authorization-page-main {
+    margin-top: 68px;
+    margin-bottom: 82px;
+    position: relative;
+    display: flex;
+}
+@media (max-width: 768px) {
+    .authorization-page-main {
+        margin-top: 29px;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+.authorization-page-main * {
+    letter-spacing: 0.02em;
+}
+
+.authorization-page-header {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 73px;
+}
+@media (max-width: 768px) {
+    .authorization-page-header {
+        margin-right: 0px;
+    }
+}
+
+.authorization-image {
+    position: absolute;
+    top: 160px;
+    left: 113px;
+}
+@media (max-width: 1280px) {
+    .authorization-image {
+        top: 190px;
+    }
+}
+@media (max-width: 768px) {
+    .authorization-image {
+        position: static;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .authorization-page-main > div {
+        display: flex;
+        justify-content: center;
+        margin-top: 128px;
+        margin-bottom: 48px;
+    }
+}

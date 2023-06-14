@@ -1,0 +1,138 @@
+.authorization-panel {
+    width: 429px;
+    height: 523px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+@media (max-width: 960px) {
+    .authorization-panel {
+        width: 335px;
+    }
+}
+@media (max-width: 768px) {
+    .authorization-panel {
+        height: 504px;       
+    }
+}
+
+.authorization-panel > div {
+    margin: 18px 25px 39px 25px;
+}
+@media (max-width: 960px) {
+    .authorization-panel > div {
+        margin: 15px 15px 39px 16px;
+    }
+}
+
+.lockImage {
+    position: absolute;
+    top: -54px;
+    left: -51px;
+}
+@media (max-width: 768px) {
+    .lockImage {
+        top: -82px;
+        left: 81px;       
+    }
+}
+
+.registration-and-login {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 19px;  
+}
+@media (max-width: 960px) {
+    .registration-and-login {
+        font-size: 14px;
+        line-height: 17px;     
+    }
+}
+
+.authorization-panel-login {
+    padding: 8px 52px;
+}
+@media (max-width: 960px) {
+    .authorization-panel-login {
+        padding: 10px 30px;
+    }
+}
+
+.authorization-panel-registration {
+    margin-left: 14px;
+    padding: 8px 21px; 
+}
+@media (max-width: 960px) {
+    .authorization-panel-registration {
+        margin-left: 19px;
+        padding: 10px 17px;
+    }
+}
+
+.authorization-login-active {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #029491;
+    color: #029491;
+    display: inline-block;
+}
+
+.authorization-login-passive {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #C7C7C7;;
+    color: #C7C7C7;
+    display: inline-block;
+}
+
+.authorization-login-active:hover, .authorization-login-passive:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.restore-password {
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration-line: underline;
+    text-decoration-color: #5970FF;;
+    font-size: 14px;
+    line-height: 17px;
+    }
+
+.restore-password a {
+    color: #5970FF;
+}
+
+.another-login-description {
+    color: #949494;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.another-login-block {
+    display: flex;
+}
+@media (max-width: 960px) {
+    .another-login-block {
+        justify-content: space-between;
+    }
+}
+
+.another-login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94px;
+    height: 30px;
+    border: 1px solid rgba(89, 112, 255, 0.51);
+    border-radius: 3px;;
+    margin-right: 13px;
+    }
+@media (max-width: 960px) {
+    .another-login-button {
+        margin-right: 0px;
+    }
+}

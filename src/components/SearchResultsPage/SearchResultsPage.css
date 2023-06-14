@@ -1,0 +1,118 @@
+.search-result-page-main * {
+    letter-spacing: 0.02em;
+}
+@media (max-width: 768px) {
+    .search-result-page-main * {
+        letter-spacing: 0.01em;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-result-page-main {
+        margin-right: 0px;
+    }
+}
+
+.search-result-page-section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    margin-bottom: 125px;
+}
+@media (max-width: 768px) {
+    .search-result-page-section1 {
+        margin-top: 18px;
+        margin-bottom: 56px;
+        display: block;
+    }
+}
+
+.search-result-page-section1 h3 {
+    letter-spacing: 0.04em;
+}
+@media (max-width: 768px) {
+    .search-result-page-section1 h3 {
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 0.01em;
+    }
+}
+
+.search-result-page-section1-description {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 24px;
+}
+@media (max-width: 768px) {
+    .search-result-page-section1-description {
+        letter-spacing: 0em;
+        margin-top: 23px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.section1-search-image {
+    position: relative;
+    width: 45vw;
+    max-width: 596px;
+    height: 100px;
+}
+@media (max-width: 768px) {
+    .section1-search-image {
+        width: 100%;
+        max-width: 768px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.section1-search-image img {
+    position: absolute;
+    top: -41px;
+}
+@media (max-width: 768px) {
+    .search-result-page-section1 img {
+        width: 100%;
+        margin-top: 19px;
+        position: static;
+    }
+}
+
+.search-result-page-section2 {
+    margin-bottom: 103px;
+}
+@media (max-width: 768px) {
+    .search-result-page-section2 {
+        margin-bottom: 51px;
+    }
+}
+
+
+.search-result-page-section2-description {
+    font-size: 18px;
+    line-height: 22px;
+    color: #949494;
+    margin-top: 18px;
+    margin-bottom: 26px;
+}
+
+.search-result-page-section3 > h4 {
+    margin-bottom: 59px;
+}
+@media (max-width: 768px) {
+    .search-result-page-section3 > h4 {
+        margin-bottom: 36px;
+    }
+}
+
+.search-result-page-section3 {
+    margin-bottom: 109px;
+}
+@media (max-width: 768px) {
+    .search-result-page-section3 {
+        margin-bottom: 57px;
+    }
+}
